@@ -7,7 +7,8 @@ Install npm packages using 'npm install' command Project Folders (server and ang
 
 Once you install all dependencies:
 
-/cd server
-/server/npm start
+# /cd server
+
+# /server/npm start
 
 The app will run on port:3000;
