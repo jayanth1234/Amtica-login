@@ -1,0 +1,36 @@
+:host {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.input {
+    position: relative;
+}
+
+div.input label {
+	position: absolute;
+	top: 0;
+	transform: translateY(-100%);
+    left: 10px;
+    color: white;
+	padding: 5px 2px;
+}
+
+div.input input {
+	padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 5%;
+	outline: 0;
+}
+
+div.input {
+	margin-top: 40px;
+}
+
+form {
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 5%;
+}

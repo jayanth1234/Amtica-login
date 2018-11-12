@@ -1,0 +1,10 @@
+<h1 class="container jumbotron text-center">
+    <div *ngIf="user">
+        <h2>Hi {{user.name}}</h2>
+    </div>
+  <button type="button" class="btn btn-primary" (click) = "onLogoutClick()" >
+    Logout
+  </button>
+</h1>
+
+
